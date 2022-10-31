@@ -1,0 +1,50 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao{
+    background-color: var(--advice-card-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 350px;
+    width: 550px;
+}
+
+.titulo{
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.texto{
+    color: var(--text-color);
+    text-align: center;
+    padding: 25px;
+    font-size: 23px;
+    margin: 40px;
+}
+
+.dado{
+    background-color: var(--advice-dice-color);
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 70px;
+    transform: translateY(50%);
+}
+
+.dado:hover{
+    background-color: var(--advice-dice-color);
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
