@@ -36,8 +36,8 @@ body{
 
 .dado{
     background-color: var(--advice-dice-color);
-    width: 55px;
-    height: 55px;
+    width: 51px;
+    height: 51px;
     border: none;
     border-radius: 70px;
     transform: translateY(50%);
